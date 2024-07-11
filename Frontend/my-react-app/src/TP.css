@@ -1,0 +1,93 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./assests/CryptoBackground.jpg");
+    background-color: #f0f2f5; 
+    background-size: cover; /* Adjust background size: cover, contain, or specific dimensions */
+    background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+    background-position: center;
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    max-width: 600px;
+    width: 87.5%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(100% - 22px); 
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.result, .error {
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.result {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.result-title, .error-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    padding: 10px; 
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba rgba(0, 0, 0, 0.1);
+}
+.copyright {
+    margin-top: 10px;
+    font-size: 0.8 rem; 
+    color: #555;
+}
